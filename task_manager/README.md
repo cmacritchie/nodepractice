@@ -13,3 +13,11 @@ C:\Users\cmacritchie\mongodb\bin\mongod.exe --dbpath=/Users/cmacritchie/mongodb-
 search by ObjectId
 //For objectID
         // db.collection('users').findOne({_id: new ObjectID("asdfasdjkfhasfjkhObjcectId")}, (error, user)=>{
+
+With mongoose: 
+C:\Users\cmacritchie\Desktop\Node_Tutorials\nodepractice\task_manager> node .\src\db\mongoose.js
+
+this application uses bcrypt for authentication
+https://www.npmjs.com/package/bcrypt
+
+middleware is put on mongoose on the user schema to has passwords 
