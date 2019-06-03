@@ -4,8 +4,12 @@ const Task = require('../models/task')
 
 
 router.post('/tasks', async (req, res)=> {
+    console.log("skyrim");
     const task = new Task(req.bod)
+    console.log(req)
+    //console.log(task)
     try {
+        debugger;
         await task.save()
         res.status(201).send(task)
     }catch(e){

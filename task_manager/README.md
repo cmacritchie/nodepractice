@@ -5,6 +5,7 @@ use the terminal to run the server and run the npm packages
 
 in one terminal
 C:\Users\cmacritchie\mongodb\bin\mongod.exe --dbpath=/Users/cmacritchie/mongodb-data to run mongodb 
+C:\Users\747049\mongodb\bin> .\mongod.exe --dbpath=/Users/747049/mongodb-data
 
 in the other:
 C:\Users\cmacritchie\mongodb\bin\mongod.exe --dbpath=/Users/cmacritchie/mongodb-data
@@ -21,3 +22,5 @@ this application uses bcrypt for authentication
 https://www.npmjs.com/package/bcrypt
 
 middleware is put on mongoose on the user schema to has passwords 
+
+JSON Web Tokens (JWT) are good for authentication
